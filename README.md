@@ -4,7 +4,7 @@
 At HooBank, we understand the importance of managing your finances with peace of mind. That's why we've created a secure and user-friendly online platform to help you take control of your banking needs anytime, anywhere.
 
 ### Demo
-https://youssef-yasser-mahmoud.github.io/Hoo-Bank/
+https://youssef-yasser-mahmoud.github.io/HooBank/
 
 # Getting Started with Create React App
 
