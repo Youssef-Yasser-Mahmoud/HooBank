@@ -1,0 +1,23 @@
+.links image {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.links image img {
+    width: 12.6rem;
+}
+
+@media screen and (max-width:425px) {
+    .links image img {
+        width: 6.6rem;
+    }
+}
+
+@media screen and (min-width:1440px) {
+    .links image {
+        gap:10rem;
+    }
+}

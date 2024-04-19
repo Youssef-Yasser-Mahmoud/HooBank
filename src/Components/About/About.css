@@ -1,0 +1,124 @@
+/* Top-Side */
+
+.about .text-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 4rem;
+}
+
+.about .text-container header{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.about .text-container header h3 {
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 81.6px;
+}
+
+.about .text-container div p {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0.01em;
+    color: #FFFFFFB2;
+}
+
+
+
+/* Bottom-Side */
+
+.about .quote-container {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about .quote-container .quote {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2.5rem;
+    padding: 0.5rem;
+}
+
+/* hovering */
+.about .quote-container .quote:hover{
+    background: linear-gradient(153.47deg, rgba(255, 255, 255, 0) -341.94%, #14101D 95.11%);
+    padding: 0.5rem;
+    border-radius: 1.1rem;
+    box-shadow: 0px 20px 100px -10px #42475B1A;
+    cursor: pointer;
+    -webkit-border-radius: 1.1rem;
+    -moz-border-radius: 1.1rem;
+    -ms-border-radius: 1.1rem;
+    -o-border-radius: 1.1rem;
+}
+
+.about .quote-container .quote > img {
+    width: 42.6px;
+    height: 27.6px;
+} 
+
+.about .quote-container .quote > p {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0.02em;
+    width: 290px;
+}
+
+.about .quote-container .quote .user {
+    display: flex;
+    gap: 0.9rem;
+    align-items: center;
+}
+
+.about .quote-container .quote .user img {
+    width: 48px;
+    height: 48px;
+}
+
+.about .quote-container .quote .user .info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+}
+
+/* media */
+
+@media screen and (max-width:1024px){
+    .about .quote-container {
+        flex-direction: column;
+        row-gap: 3rem;
+    }
+    .about .text-container{
+        flex-direction: column;
+        row-gap: 1.5rem;
+    }
+}
+
+@media screen and (max-width:425px){
+    .about .text-container header h3{
+        font-size: xx-large;
+    }
+    .about .text-container div p {
+        font-size: medium;
+    }
+    .about .quote-container .quote {
+        display: flex;
+        flex-direction: column;
+        row-gap: 2.5rem;
+        align-items: center;
+    }
+    .about .quote-container .quote > img {
+        width: 22.6px;
+        height: 17.6px;
+    }
+}
