@@ -1,0 +1,53 @@
+.nav{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.nav img {
+    width: 115px;
+    height: 55px;
+}
+ul {
+    display: flex;
+    list-style: none;
+}
+
+ul li a{
+    font-family: Poppins;
+    color: #FFFFFF;
+    opacity: 70%;
+    padding: 0px 1rem;
+    text-decoration: none;
+}
+
+ul li.a0 a{
+    opacity: 100%;
+}
+
+.menu ,.close{
+    color: rgb(255, 255, 255);
+    font-size: 2.5rem;
+}
+
+@media screen and (max-width:768px){
+    ul.big-ul{
+        display: none;
+    }
+    .show{
+        display: block;
+    }
+    ul.small-ul{
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width:769px){
+    .menu,
+    .close,
+    .small-ul{
+        display: none;
+    }
+}
+
