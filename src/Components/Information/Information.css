@@ -1,0 +1,73 @@
+.bar-container{
+    color:white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 3rem 0rem;
+}
+
+.bar-container div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 2rem;
+    margin: 0.5rem;
+}
+
+/* vertical line */
+.bar-container div span {
+    border: 1.7px solid #FFFFFF99;
+    width: 0.1rem;
+    height: 0.8rem;
+}
+
+/* Numbers styles */
+.bar-container div p:first-of-type{
+    font-family: Poppins;
+    font-size: 41px;
+    font-weight: 600;
+    line-height: 53px;
+    letter-spacing: 0px;
+}
+
+/* Text styles */
+.bar-container div p:last-of-type{
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0px;
+    color: aqua;
+}
+
+@media screen and (max-width:768px){
+    .bar-container {
+        justify-content: start;
+    }
+    .bar-container div p:first-of-type ,
+    .bar-container div p:last-of-type {
+        font-size: 1.2rem;
+    }
+    /* centeralized the content */
+    .bar-container div{
+        width: 50vw;
+    }
+    /* hide the border */
+    .bar-container div span {
+        display: none;
+    }
+}
+
+@media screen and (max-width:425px){
+    .bar-container{
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .bar-container div p:first-of-type ,
+    .bar-container div p:last-of-type {
+        font-size: 0.8rem;
+    }
+}
