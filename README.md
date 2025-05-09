@@ -31,9 +31,9 @@ The project is organized into the following main directories:
 
 1. Clone the repository:
 
-   ```bash
-   git clone https://github.com/Youssef-Yasser-Mahmoud/HooBank.git
-   ```
+```bash
+git clone https://github.com/Youssef-Yasser-Mahmoud/HooBank.git
+```
 
 2. Navigate to the project directory:
 
