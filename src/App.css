@@ -1,0 +1,28 @@
+:root {
+  --MainBackgroundColor: black;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.App {
+  padding: 1rem 4rem;
+  background-color: var(--MainBackgroundColor);
+}
+
+.App > div {
+  margin-bottom: 4rem;
+}
+
+@media screen and (max-width: 425px) {
+  .App {
+    padding: 0.5rem 0.5rem;
+  }
+  .App > div {
+    margin-bottom: 2rem;
+  }
+}
